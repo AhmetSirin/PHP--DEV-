@@ -1,0 +1,189 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.üst_bar {
+    background-color: #4b0b04;
+    color: #fff;
+    padding: 20px; /* Bar daha kalın ve daha fazla padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.üst_bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px; /* Yazılar daha büyük */
+}
+
+.hastane_adi {
+    flex-grow: 1; /* Ortaya almak için */
+    text-align: center; /* Yazıları ortala */
+}
+
+.menu {
+    display: flex; /* Menü elemanlarını yan yana getir */
+    align-items: center; /* Dikey hizalama ayarı */
+    gap: 15px; /* Aralarında 15px boşluk bırak */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px; /* Yazılar daha büyük */
+}
+
+.menu a:hover {
+    color: #ccc;
+}
+
+.Çikiş {
+    padding: 15px 20px;
+    background-color: #4b0b04;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; 
+    font-size: 20px;
+}
+
+.Çikiş:hover {
+    background-color: #8c140d;
+}
+
+.adsoyad {
+    top: 20px;
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 50px;
+}
+
+.adsoyad h4 {
+    font-size: 25px;
+    position: relative;
+    float: left;
+    color: #292929;
+    margin: 0; /* Ekstra margin ekledim, gereksiz boşlukları önlemek için */
+}
+
+/* Orta Div Styles */
+.orta_div {
+    position: absolute;
+    width: 45%;
+    height: 500px;
+    background: #e7e7e7;
+    top: 170px;
+    opacity: 0.8;
+    
+}
+
+#Randevu_div {
+    left: 50px;
+}
+
+#AileHekimi_div {
+    right: 50px;
+}
+
+#AileHekimi_div h3 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 25px;
+}
+
+#AileHekimi_div p {
+    position: relative;
+    text-align: center;
+    color: #292830;
+    font-size: 30px;
+    top: 100px;
+}
+select, 
+#Randevu_div input,
+button {
+    position: relative;
+    width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #292830;
+    color: white;
+    cursor: pointer;
+}
+
+#Randevu_div form{
+    position: relative;
+    top: 50px;
+    left: 185px;
+}
+.hesabım_content {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #4b0b04;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4b0b04;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #8c140d;
+}
+table {
+    position: relative;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 4%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4b0b04;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
